@@ -37,7 +37,7 @@ body {
   grid-column: col-start 7 / full-end; }
 
 .features {
-  background-color: #6d5d4b;
+  background-color: #aaa;
   grid-column: center-start / center-end; }
 
 .story__pictures {
