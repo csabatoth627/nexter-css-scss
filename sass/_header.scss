@@ -16,6 +16,10 @@
   row-gap: 1.5rem;
   justify-content: center;
 
+  @media only screen and (max-width: $bp-medium) {
+    grid-column: 1 / -1;
+  }
+
   &__logo {
     height: 3rem;
     justify-self: center;
@@ -37,10 +41,10 @@
 
     &::before,
     &::after {
-        content: "";
-        height: 1px;
-        display: block;
-        background-color: currentColor;
+      content: "";
+      height: 1px;
+      display: block;
+      background-color: currentColor;
     }
   }
 
